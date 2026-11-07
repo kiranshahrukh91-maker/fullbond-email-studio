@@ -25,8 +25,10 @@ Email is sent through Resend. Checkout is on Payhip. Campaigns are planned and w
 
 ## Rules
 
-- Write in plain Australian English (for example "organise", "colour", "bond", "landlord").
+- Write in plain Australian English (for example "organise", "colour", "bond", "rental provider").
 - Never send email to real people. Drafts and tests only, unless I say otherwise in that moment.
 - Every email must include the Fullbond name, a contact address and an unsubscribe link (Spam Act 2003).
 - Fullbond gives general information, not legal advice. Say so where an email touches on bond, tenancy or legal rights.
 - Ask me before deleting anything.
+
+@brand/voice.md
