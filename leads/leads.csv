@@ -1,0 +1,25 @@
+first_name,last_name,email,group,suburb,joined_on,consent
+Priya,Nair,priya.nair@example.com,moving-in,Brunswick,2026-11-02,checklist form
+Daniel,Nguyen,daniel.nguyen@example.com,moving-in,Richmond,2026-11-01,checklist form
+Sophie,Clarke,sophie.clarke@example.com,moving-in,Northcote,2026-11-03,checklist form
+Mohammed,Haddad,mohammed.haddad@example.com,moving-in,Preston,2026-11-04,checklist form
+Chloe,Anderson,chloe.anderson@example.com,moving-in,St Kilda,2026-11-05,checklist form
+Arjun,Mehta,arjun.mehta@example.com,moving-in,Box Hill,2026-11-06,checklist form
+Isabella,Rossi,isabella.rossi@example.com,moving-in,Coburg,2026-11-07,checklist form
+Tom,Whitaker,tom.whitaker@example.com,moving-in,Williamstown,2026-11-08,checklist form
+Liam,O'Connor,liam.oconnor@example.com,moving-out,Footscray,2026-11-04,checklist form
+Mei,Zhang,mei.zhang@example.com,moving-out,Carlton,2026-11-01,checklist form
+Jack,Thompson,jack.thompson@example.com,moving-out,Fitzroy,2026-11-02,checklist form
+Fatima,Ali,fatima.ali@example.com,moving-out,Sunshine,2026-11-03,checklist form
+Ben,Katsaros,ben.katsaros@example.com,moving-out,Brighton,2026-11-05,checklist form
+Hannah,Lee,hannah.lee@example.com,moving-out,Camberwell,2026-11-06,checklist form
+Ravi,Kapoor,ravi.kapoor@example.com,moving-out,Clayton,2026-11-07,checklist form
+Olivia,Murphy,olivia.murphy@example.com,moving-out,Collingwood,2026-11-08,checklist form
+Ella,Johnson,ella.johnson@example.com,first-timers,Melbourne,2026-11-01,checklist form
+Kenji,Tanaka,kenji.tanaka@example.com,first-timers,Docklands,2026-11-02,checklist form
+Amara,Okafor,amara.okafor@example.com,first-timers,Footscray,2026-11-03,checklist form
+Lucas,Pereira,lucas.pereira@example.com,first-timers,Southbank,2026-11-04,checklist form
+Zara,Hussain,zara.hussain@example.com,first-timers,Clayton,2026-11-05,checklist form
+Noah,Williams,noah.williams@example.com,first-timers,Hawthorn,2026-11-06,checklist form
+Aisha,Rahman,aisha.rahman@example.com,first-timers,Dandenong,2026-11-07,checklist form
+Ethan,Brooks,ethan.brooks@example.com,first-timers,Thornbury,2026-11-08,checklist form
