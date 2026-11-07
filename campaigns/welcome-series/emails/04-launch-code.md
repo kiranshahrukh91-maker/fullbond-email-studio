@@ -5,9 +5,9 @@ Hi {{first_name}},
 
 Moving soon? Don't stress. Here's a launch offer to make getting ready a little easier.
 
-Use code **LAUNCH10** at checkout for 10% off any kit. The code ends at 11:59pm on Sunday 20 December 2026.
+Enter code **LAUNCH10** at checkout for 10% off any kit. The code ends at 11:59pm Melbourne time on Sunday 20 December 2026.
 
-Every kit is an instant download made for Victorian renters, and it comes with our 14-day money-back promise. The Complete Toolkit is $29, the Move-In Kit $12 and the Move-Out Kit $15.
+Every kit is an instant download made for Victorian renters, with a 14-day money-back promise. The Move-In Kit is $12, the Move-Out Kit $15 and the Complete Toolkit $29.
 
 Pick the kit that fits where you are right now, then follow it step by step.
 

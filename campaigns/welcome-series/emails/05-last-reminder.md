@@ -3,9 +3,9 @@ Preview: LAUNCH10 gives 10% off any kit until 11:59pm Sunday 20 December.
 
 Hi {{first_name}},
 
-A friendly reminder that your LAUNCH10 code ends at 11:59pm this Sunday, 20 December 2026.
+A friendly reminder that the LAUNCH10 code ends at 11:59pm Melbourne time this Sunday, 20 December 2026. Enter it at checkout for 10% off any kit.
 
-If the toolkit sounds useful, the code takes 10% off any kit. If it doesn't, that's completely fine. Your free checklist is yours to keep.
+If the toolkit sounds useful, every kit comes with our 14-day money-back promise. If it doesn't, that's completely fine. Your free checklist is yours to keep.
 
 [Get the toolkit – $29](https://fullbond.com.au/toolkit)
 

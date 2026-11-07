@@ -3,15 +3,17 @@ Preview: Here's a simple way to take move-in photos that show how the place look
 
 Hi {{first_name}},
 
-Here's an easy fix for a common slip: taking too few photos, or taking them days after the keys are handed over.
+Here's an easy fix for an easy slip to make: taking too few photos, or taking them days after the keys are handed over.
 
 Here's what to do:
 
 - Photograph every room on day one, plus close-ups of any marks or damage.
 - Check each photo has a date saved.
-- Keep copies somewhere safe and send them in with your condition report.
+- Keep copies somewhere safe, and attach them when you return your condition report.
 
 Clear, dated photos show what the place looked like when you arrived. The Fullbond toolkit has a step-by-step photo guide if you'd like it ready to go.
+
+General information, not legal advice.
 
 [Get the toolkit – $29](https://fullbond.com.au/toolkit)
 

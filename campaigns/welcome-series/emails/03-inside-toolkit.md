@@ -7,11 +7,11 @@ Here's a quick look at the Melbourne Renter Toolkit, so you can pick what suits 
 
 - **Move-In Kit, $12:** for when you're getting the keys.
 - **Move-Out Kit, $15:** for when you're getting ready to leave.
-- **Complete Toolkit, $29:** both kits together, our best value.
+- **Complete Toolkit, $29:** covers moving in and moving out in one download.
 
-Inside you'll find checklists, a photo guide and email templates, all made for Victorian renters. It's an instant download, with a 14-day money-back promise.
+Inside you'll find checklists, a photo guide and email templates, all made for Victorian renters. Every kit is an instant download, with a 14-day money-back promise.
 
-Not sure which to choose? Here's the plan: the Complete Toolkit covers every step, from day one to handing back the keys.
+Not sure which to choose? Moving in? The Move-In Kit may be all you need. Leaving soon? Try the Move-Out Kit. Want both? The Complete Toolkit has you covered.
 
 [Get the toolkit – $29](https://fullbond.com.au/toolkit)
 
