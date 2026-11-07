@@ -20,7 +20,7 @@ Please read these first. Each one affects what we write next.
 8. **Current list size is unknown to me.** The 100-sales goal needs roughly 2,500 to 5,000 sign-ups (section 7). Please tell me how many people are on the list today.
 9. **Do sign-ups before launch day (Mon 7 Dec) get the sales emails?** Assumption in this plan: the toolkit page is not live before launch, so no email with the buy link goes out before 9:00am Mon 7 Dec. Earlier sign-ups still get emails 1 and 2, and their sales emails start on launch day.
 10. **DECIDED: no sending on weekends or Victorian public holidays, all year.** Email 1 is the only exception and goes straight away at any time, because it delivers the checklist the person just asked for. The rule is in section 5.4.
-11. **DECIDED: the Complete Toolkit is now $25, not the build plan's $29.** You approved this change on 8 Nov 2026. `notes/fullbond-build-plan.pdf` still says $29, so update the PDF, Payhip and the toolkit page to match before launch. Move-In ($12) and Move-Out ($15) are unchanged.
+11. **DECIDED: the Complete Toolkit is now $25, not the build plan's $29.** You approved this change on 8 Nov 2026. The build plan PDF was updated to $25 on 8 Nov 2026. Payhip and the toolkit page still need to match before launch. Move-In ($12) and Move-Out ($15) are unchanged.
 
 ---
 
