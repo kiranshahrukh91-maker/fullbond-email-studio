@@ -1,0 +1,23 @@
+Subject: Moving soon? Here's 10% off
+Preview: Use code LAUNCH10 for 10% off any kit. Instant download, 14-day money-back promise.
+
+Hi {{first_name}},
+
+Just got the keys? Don't stress. Here's a launch offer to make getting ready a little easier.
+
+Enter code **LAUNCH10** at checkout for 10% off any kit. The code ends at 11:59pm Melbourne time on Sunday 20 December 2026.
+
+Every kit is an instant download made for Victorian renters, with a 14-day money-back promise. The Move-In Kit is $12, the Move-Out Kit $15 and the Complete Toolkit $25.
+
+Pick the kit that fits, then follow the condition report and day-one photos step by step.
+
+[Get the toolkit – $25](https://fullbond-website-zwl8.vercel.app/toolkit)
+
+Here to help,
+The Fullbond Team
+
+You're getting this because you downloaded the free 10 Bond Mistakes checklist from Fullbond.
+
+Fullbond · ABN {{abn}} · hello@fullbond.com.au · {{company_address}} · Unsubscribe: {{unsubscribe_url}}
+
+Fullbond provides general information, not legal advice.
