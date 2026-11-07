@@ -10,8 +10,8 @@ Sources: `notes/fullbond-build-plan.pdf` (the welcome series table, prices, LAUN
 
 Please read these first. Each one affects what we write next.
 
-1. **The Day 9 subject "Last reminder: your code ends tonight" is only true for some people.** The build plan sends it 9 days after sign-up, but LAUNCH10 ends on a fixed date. Only someone who signs up on Fri 11 Dec 2026 gets Day 9 on the last day. For everyone else "tonight" would be untrue, which breaks `brand/voice.md` (no fake urgency; the offer must really end when we say it does). The build plan wins on the subject, so I have kept it for the one group it fits and proposed true variants for the rest (section 5). **Please confirm**, or tell me to change the build plan.
-2. **People who sign up from Mon 12 Dec onwards would get a LAUNCH10 email after the code has ended.** Sign-ups from Mon 15 Dec get none of their code emails inside the window. I have proposed no-code versions of Day 6 and Day 9 for them (section 5). The build plan does not cover this.
+1. **DECIDED: the Day 9 subject is "Last reminder: your code ends Sunday".** The build plan's subject, "Last reminder: your code ends tonight", can't be true now that no email sends on a weekend (decision 10). LAUNCH10 ends on Sunday 20 Dec 2026, and nothing sends that day. This is a deliberate change from the build plan, approved by you. Day 9 emails sent from Mon 21 Dec use a no-code version, so the subject is still to write.
+2. **DECIDED: late sign-ups get no-code emails.** Which version someone gets depends on the day the email actually sends, not the sign-up date. Any Day 6 or Day 9 sent from Mon 21 Dec has no LAUNCH10 (section 5.3).
 3. **The Day 6 subject "Moving soon? Here's 10% off" suits moving-in and moving-out readers better than first-timers.** The build plan's subject stays. I suggest the opening line adapts for first-timers (the personalise step does this).
 4. **The Day 2 subject "The photo mistake that costs renters the most" is on the edge of our calm voice.** It is the build plan's subject, so it stays. The body should stay calm and go straight to "here's what to do".
 5. **The buyer thank-you email does not fit the email rules we are about to write.** The planned `.claude/rules/emails.md` allows only two links (toolkit or checklist) and a footer line saying "you downloaded the free checklist". The thank-you needs a review link and a footer line about their purchase. We will need a small rule change when we get to Step 6.
@@ -19,6 +19,7 @@ Please read these first. Each one affects what we write next.
 7. **How do we know a person's group?** The build plan names three groups but I can't see where it is captured. I have assumed the checklist sign-up form asks "Which best describes you?". If it does not, the form needs that question before launch. People who skip it get the first-timers version (plain words, no assumptions).
 8. **Current list size is unknown to me.** The 100-sales goal needs roughly 2,500 to 5,000 sign-ups (section 7). Please tell me how many people are on the list today.
 9. **Do sign-ups before launch day (Mon 7 Dec) get the sales emails?** Assumption in this plan: the toolkit page is not live before launch, so no email with the buy link goes out before 9:00am Mon 7 Dec. Earlier sign-ups still get emails 1 and 2, and their sales emails start on launch day.
+10. **DECIDED: no sending on weekends or Victorian public holidays, all year.** Email 1 is the only exception and goes straight away at any time, because it delivers the checklist the person just asked for. The rule is in section 5.4.
 
 ---
 
@@ -93,7 +94,9 @@ All send times are in Melbourne time (AEDT). Day 0 is the day of sign-up. Every 
 | 2 | Day 2 | The photo mistake that costs renters the most | All groups, with a group-specific opening | How to take move-in photos that count as evidence. | Get the toolkit, $29 (soft) |
 | 3 | Day 4 | What's inside the Fullbond toolkit | All groups, with a group-specific example | Preview images, who it helps, link to buy. | Get the toolkit, $29 |
 | 4 | Day 6 | Moving soon? Here's 10% off | All groups | LAUNCH10 code, 14-day money-back promise, Buy button. | Get the toolkit, $29 |
-| 5 | Day 9 | Last reminder: your code ends tonight | All groups | Short, friendly, one button. | Get the toolkit, $29 |
+| 5 | Day 9 | Last reminder: your code ends Sunday (sent Mon 14 to Fri 18 Dec only; no-code subject to write for later sends) | All groups | Short, friendly, one button. | Get the toolkit, $29 |
+
+"Day 2" and so on means the offset from sign-up. The real send day follows the send-day rule in section 5.4.
 
 Group angle for each email (the personalise step writes these):
 - **moving-in:** condition report and day-one photos; Move-In Kit $12 or Complete Toolkit $29.
@@ -106,7 +109,7 @@ Each email has one main link (the Complete Toolkit page). The individual kits ar
 
 | Send time | Audience | Purpose | Subject |
 |---|---|---|---|
-| 7 days after purchase | Buyers of any kit | Thank them, check the download worked, and ask for a short, honest review. | To write (50 characters or fewer) |
+| 7 days after purchase (then the send-day rule, section 5.4) | Buyers of any kit | Thank them, check the download worked, and ask for a short, honest review. | To write (50 characters or fewer) |
 
 Rules for this email:
 - Ask for an honest review only. No reward and no wording that steers them toward five stars.
@@ -116,24 +119,44 @@ Rules for this email:
 
 ### 5.3 Timing for rolling sign-ups (this is where LAUNCH10 gets tricky)
 
-LAUNCH10 runs for the first 2 weeks: **Mon 7 Dec 2026 to Sun 20 Dec 2026, ending 11:59pm AEDT** (14 days). I checked the dates by calculation: 7 Dec 2026 is a Monday, 20 Dec 2026 is a Sunday, and 3 Jan 2027 is a Sunday.
+LAUNCH10 runs for the first 2 weeks: **Mon 7 Dec 2026 to Sun 20 Dec 2026, ending 11:59pm AEDT** (14 days). I checked the dates by calculation: 7 Dec 2026 is a Monday, 20 Dec 2026 is a Sunday, and 3 Jan 2027 is a Sunday. Because nothing sends at weekends, the last day a code email can go out is **Fri 18 Dec**.
 
-| Sign-up date | Day 6 email lands | Day 9 email lands | What they get |
-|---|---|---|---|
-| Mon 7 Dec | Sun 13 Dec | Wed 16 Dec | Day 6 with code. Day 9 says the code ends Sunday. |
-| Tue 8 to Thu 10 Dec | Mon 14 to Wed 16 Dec | Thu 17 to Sat 19 Dec | Day 6 with code. Day 9 says the code ends Sunday. |
-| **Fri 11 Dec** | Thu 17 Dec | **Sun 20 Dec** | Day 9 "ends tonight" is true only for this day. |
-| Sat 12 to Mon 14 Dec | Fri 18 to Sun 20 Dec | Mon 21 to Wed 23 Dec | Day 6 with code. Day 9 has no code. |
-| Tue 15 Dec onwards | After 20 Dec | After 20 Dec | No-code Day 6 and Day 9 (money-back promise, which kit fits). |
+Launch-week send days, after the send-day rule (section 5.4). Email 1 always goes straight away.
 
-**Variants to write** (needs your confirmation, see decision 1):
-- **Day 6 (with code) / Day 6 (no code):** same structure, the second leaves out LAUNCH10.
-- **Day 9 (ends tonight)** sent 20 Dec only; **Day 9 (ends Sunday)** sent 16 to 19 Dec, with the subject "Last reminder: your code ends Sunday"; **Day 9 (no code)** sent from 21 Dec.
+| Signs up | Day 2 | Day 4 | Day 6 | Day 9 |
+|---|---|---|---|---|
+| Mon 7 Dec | Wed 9 | Fri 11 | Mon 14 | Wed 16 |
+| Tue 8 Dec | Thu 10 | Mon 14 | Tue 15 | Thu 17 |
+| Wed 9 Dec | Fri 11 | Mon 14 | Tue 15 | Fri 18 |
+| Thu 10 Dec | Mon 14 | Tue 15 | Wed 16 | Mon 21 (no code) |
+| Fri 11 Dec | Mon 14 | Tue 15 | Thu 17 | Mon 21 (no code) |
+| Sat 12 Dec | Mon 14 | Wed 16 | Fri 18 | Mon 21 (no code) |
+| Sun 13 Dec | Tue 15 | Thu 17 | Mon 21 (no code) | Tue 22 (no code) |
+| Mon 14 Dec | Wed 16 | Fri 18 | Mon 21 (no code) | Tue 22 (no code) |
+| Tue 15 Dec | Thu 17 | Mon 21 | Tue 22 (no code) | Thu 24 (no code) |
+
+Sales emails (Day 4, 6 and 9) for sign-ups before launch wait until Mon 7 Dec (decision 9). Dates from 25 Dec onwards also move for public holidays (section 5.4).
+
+**Variants to write** (chosen by the day the email actually sends):
+- **Day 6 (with code)** if it sends on or before Fri 18 Dec, **Day 6 (no code)** if it sends from Mon 21 Dec. The second leaves out LAUNCH10.
+- **Day 9 (ends Sunday)** if it sends Mon 14 to Fri 18 Dec, with the subject "Last reminder: your code ends Sunday". **Day 9 (no code)** if it sends from Mon 21 Dec. No-code subjects for Day 6 and Day 9 are still to write.
 - The code end date and time must match Payhip exactly. Confirm how Payhip handles the end time and that LAUNCH10 applies to all three kits.
 
 For reference, 10% off works out to: Complete Toolkit $26.10, Move-In Kit $10.80, Move-Out Kit $13.50. Confirm the checkout shows the same.
 
-### 5.4 Flow rules
+### 5.4 Send-day rule (all year)
+
+No email sends on a Saturday, Sunday or Victorian public holiday. **Email 1 is the only exception**: it goes straight away at any time, because it delivers the checklist the person just asked for.
+
+1. Take the sign-up date and add the offset (2, 4, 6 or 9 days; for the buyer thank-you, 7 days after purchase).
+2. If that date is a Saturday, Sunday or Victorian public holiday, move it forward to the next weekday that is not a public holiday.
+3. If two emails to the same person would land on the same day, push the later one forward to the next working day. Emails never double up.
+4. Pick the LAUNCH10 or no-code version by the final send day, not the sign-up date (section 5.3).
+5. Send at 9:00am Melbourne time (proposed; confirm).
+
+Holidays to build in: the official Victorian public holiday list, checked before launch. For the launch period I expect Fri 25 Dec 2026 (Christmas Day), Mon 28 Dec 2026 (the substitute for Boxing Day on Sat 26 Dec) and Fri 1 Jan 2027 (New Year's Day). I have not yet checked these against the official list, so do that first. Later holidays in 2027 come from the same list.
+
+### 5.5 Flow rules
 
 - **Exit the welcome series when:** the person buys (they move to the buyer flow), unsubscribes, bounces or reports spam.
 - **A buyer who purchases between emails** gets no further sales emails.
@@ -160,9 +183,9 @@ Today is Sun 8 Nov 2026, so there are about four weeks to prepare. Launch week s
 | Tue 8 to Fri 11 Dec | Short tip posts; helpful post in 2 to 3 renter groups (checklist link at the end) | Social, groups | Reply to comments and messages quickly | |
 | Mon 14 Dec | **Week 1 report** (`marketing:performance-report`) | Reporting | Check emails 1 to 3 results | |
 | Wk of 14 Dec | Keep posting; fix any broken link or unclear email | Social, email | One small change at a time | |
-| **Sun 20 Dec** | **LAUNCH10 ends 11:59pm AEDT.** Day 9 "ends tonight" goes only to Fri 11 Dec sign-ups. | Email, Payhip | Confirm code really stops | |
-| Mon 21 Dec | Week 2 report; switch late sign-ups to no-code emails | Reporting, email | | |
-| Wk of 21 Dec | Christmas week: lighter posting; make sure emails still send and support is checked | All | Pause nothing that is already scheduled | |
+| **Sun 20 Dec** | **LAUNCH10 ends 11:59pm AEDT.** No email sends this day (Sunday). Last code emails go Fri 18 Dec. | Email, Payhip | Confirm code really stops | |
+| Mon 21 Dec | Week 2 report; every Day 6 and Day 9 sent from today uses the no-code version | Reporting, email | | |
+| Wk of 21 Dec | Christmas week: lighter posting; emails skip weekends and public holidays (25 Dec, 28 Dec, 1 Jan, to confirm); check support | All | Send-day rule in section 5.4 | |
 | Wk of 28 Dec | Keep welcome series running; ask early buyers for reviews (thank-you email does this) | Email | | |
 | **Sun 3 Jan 2027** | Campaign window ends 11:59pm AEDT | | | |
 | Mon 4 Jan 2027 | Final report: sales vs the 100 goal, best and weakest email, one change to test | Reporting | | |
@@ -209,7 +232,7 @@ Revenue guide: if about 60% of buyers choose the Complete Toolkit and the rest s
 
 ## 8. Budget
 
-Budget is small: free social posts and renter groups, no paid ads.
+Budget is small: emails only , no paid ads.
 
 | Item | Cost | Notes |
 |---|---|---|
@@ -225,7 +248,7 @@ Budget is small: free social posts and renter groups, no paid ads.
 |---|---|
 | **List is too small for 100 sales.** | Confirm list size now; build a sign-up push (social, groups, guides); set minimum and stretch targets; report weekly. |
 | **A new sending domain lands in spam.** | Set up SPF, DKIM and DMARC; start with a small send; keep emails short with one link; monitor bounces and complaints. |
-| **Code deadline mismatch** (emails that mention a code after it ended, or "tonight" on the wrong day). | Date-based email variants (section 5.3); test with practice leads set to each date; set Payhip to end the code at the stated time. |
+| **Code deadline mismatch** (emails that mention a code after it ended, or wrong end-day wording). | Pick the email version by the actual send day (section 5.3); test with practice leads set to each date, including holidays; set Payhip to end the code at the stated time. |
 | **Claims drift beyond what we can support.** | Run `brand-review` on every email and post; no promise of results; no testimonials until real ones exist. |
 | **The Christmas and New Year period lowers attention.** | Keep emails short and useful; schedule everything in advance; keep support checked over the break. |
 | **Renter groups remove posts that look like adverts.** | Read each group's rules; lead with help; mention Fullbond at the end only; ask an admin first if unsure. |
@@ -233,7 +256,7 @@ Budget is small: free social posts and renter groups, no paid ads.
 
 ## 10. Next steps
 
-1. **Answer the nine decisions at the top**, especially 1, 7, 8 and 9.
+1. **Answer the open decisions at the top**: 3 to 9 (1, 2 and 10 are decided), especially 7, 8 and 9. Also confirm the 9:00am send time and check the holiday dates against the official Victorian list.
 2. Send me the ABN and postal address for the footer, and confirm the toolkit and free-checklist page links.
 3. Confirm in Payhip: LAUNCH10 applies to all three kits, 10% off, ends 11:59pm Sun 20 Dec 2026 AEDT.
 4. Write the email rule (`.claude/rules/emails.md`), including the exceptions the thank-you email needs.
