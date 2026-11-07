@@ -11,7 +11,7 @@ Every kit is an instant download made for Victorian renters, with a 14-day money
 
 Pick the kit that fits where you are right now, then follow it step by step.
 
-[Get the toolkit – $25](https://fullbond.com.au/toolkit)
+[Get the toolkit – $25](https://fullbond-website-zwl8.vercel.app/toolkit)
 
 Here to help,
 The Fullbond Team

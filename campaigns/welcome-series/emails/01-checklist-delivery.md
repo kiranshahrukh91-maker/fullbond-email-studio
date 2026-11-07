@@ -5,7 +5,7 @@ Hi {{first_name}},
 
 Thanks for downloading the 10 Bond Mistakes checklist. Don't stress, it's simple to follow.
 
-[Download your checklist](https://fullbond.com.au/free-checklist)
+[Download your checklist](https://fullbond-website-zwl8.vercel.app/free-checklist)
 
 Here's one quick tip to start with: read your condition report slowly (it's the form that lists the place's condition when you move in). Write down anything that's missing or looks different from the real place. Small notes early make things easier later.
 

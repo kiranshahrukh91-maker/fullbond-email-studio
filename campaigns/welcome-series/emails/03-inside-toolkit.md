@@ -13,7 +13,7 @@ Inside you'll find checklists, a photo guide and email templates, all made for V
 
 Not sure which to choose? Moving in? The Move-In Kit may be all you need. Leaving soon? Try the Move-Out Kit. Want both? The Complete Toolkit has you covered.
 
-[Get the toolkit – $25](https://fullbond.com.au/toolkit)
+[Get the toolkit – $25](https://fullbond-website-zwl8.vercel.app/toolkit)
 
 Here to help,
 The Fullbond Team

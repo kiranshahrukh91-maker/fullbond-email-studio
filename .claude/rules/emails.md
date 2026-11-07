@@ -13,8 +13,8 @@ Each email file must:
 - **Greet the reader** with `{{first_name}}`.
 - **Be easy to read on a phone.** The body is 150 words or fewer.
 - **Have exactly one main link.**
-  - Sales emails use `[Get the toolkit – $25](https://fullbond.com.au/toolkit)`.
-  - The first email uses `[Download your checklist](https://fullbond.com.au/free-checklist)`.
+  - Sales emails use `[Get the toolkit – $25](https://fullbond-website-zwl8.vercel.app/toolkit)`.
+  - The first email uses `[Download your checklist](https://fullbond-website-zwl8.vercel.app/free-checklist)`.
 - **Stay honest and calm.**
   - Never promise a full bond back.
   - Never give legal advice.
