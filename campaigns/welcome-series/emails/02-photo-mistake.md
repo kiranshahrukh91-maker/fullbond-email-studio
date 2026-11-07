@@ -15,7 +15,7 @@ Clear, dated photos show what the place looked like when you arrived. The Fullbo
 
 General information, not legal advice.
 
-[Get the toolkit – $29](https://fullbond.com.au/toolkit)
+[Get the toolkit – $25](https://fullbond.com.au/toolkit)
 
 Here to help,
 The Fullbond Team

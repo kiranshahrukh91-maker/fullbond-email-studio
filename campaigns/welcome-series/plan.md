@@ -20,6 +20,7 @@ Please read these first. Each one affects what we write next.
 8. **Current list size is unknown to me.** The 100-sales goal needs roughly 2,500 to 5,000 sign-ups (section 7). Please tell me how many people are on the list today.
 9. **Do sign-ups before launch day (Mon 7 Dec) get the sales emails?** Assumption in this plan: the toolkit page is not live before launch, so no email with the buy link goes out before 9:00am Mon 7 Dec. Earlier sign-ups still get emails 1 and 2, and their sales emails start on launch day.
 10. **DECIDED: no sending on weekends or Victorian public holidays, all year.** Email 1 is the only exception and goes straight away at any time, because it delivers the checklist the person just asked for. The rule is in section 5.4.
+11. **DECIDED: the Complete Toolkit is now $25, not the build plan's $29.** You approved this change on 8 Nov 2026. `notes/fullbond-build-plan.pdf` still says $29, so update the PDF, Payhip and the toolkit page to match before launch. Move-In ($12) and Move-Out ($15) are unchanged.
 
 ---
 
@@ -39,9 +40,9 @@ Everyone who downloads the free checklist, in three groups.
 
 | Group | Who they are | What they worry about | Buying stage | Likely best-fit kit |
 |---|---|---|---|---|
-| moving-in | Just signed a lease, about to get the keys | Proving the condition on day one (photos, condition report) | Consideration, high intent (time-sensitive) | Move-In Kit $12, or Complete Toolkit $29 |
-| moving-out | Leaving within 6 weeks | Cleaning, the final inspection, replying to a bond claim | Decision, high intent | Move-Out Kit $15, or Complete Toolkit $29 |
-| first-timers | Renting for the first time, often students or new arrivals | Not knowing the rules or the words ("rental provider", "bond") | Awareness to consideration | Complete Toolkit $29 |
+| moving-in | Just signed a lease, about to get the keys | Proving the condition on day one (photos, condition report) | Consideration, high intent (time-sensitive) | Move-In Kit $12, or Complete Toolkit $25 |
+| moving-out | Leaving within 6 weeks | Cleaning, the final inspection, replying to a bond claim | Decision, high intent | Move-Out Kit $15, or Complete Toolkit $25 |
+| first-timers | Renting for the first time, often students or new arrivals | Not knowing the rules or the words ("rental provider", "bond") | Awareness to consideration | Complete Toolkit $25 |
 
 - **Where they spend time:** Instagram, TikTok and Facebook (including Melbourne renter and student groups), search ("how to get my bond back Victoria", "move-out cleaning checklist"), and word of mouth.
 - **Shared motivation:** feel calm and prepared about their bond. Every email should leave them feeling looked after.
@@ -91,17 +92,17 @@ All send times are in Melbourne time (AEDT). Day 0 is the day of sign-up. Every 
 | # | Send time | Subject (build plan) | Audience | Purpose | Main link |
 |---|---|---|---|---|---|
 | 1 | Straight away | Your free bond checklist is here | All groups | Deliver the checklist and one quick tip. | Download your checklist |
-| 2 | Day 2 | The photo mistake that costs renters the most | All groups, with a group-specific opening | How to take move-in photos that count as evidence. | Get the toolkit, $29 (soft) |
-| 3 | Day 4 | What's inside the Fullbond toolkit | All groups, with a group-specific example | Preview images, who it helps, link to buy. | Get the toolkit, $29 |
-| 4 | Day 6 | Moving soon? Here's 10% off | All groups | LAUNCH10 code, 14-day money-back promise, Buy button. | Get the toolkit, $29 |
-| 5 | Day 9 | Last reminder: your code ends Sunday (sent Mon 14 to Fri 18 Dec only; no-code subject to write for later sends) | All groups | Short, friendly, one button. | Get the toolkit, $29 |
+| 2 | Day 2 | The photo mistake that costs renters the most | All groups, with a group-specific opening | How to take move-in photos that count as evidence. | Get the toolkit, $25 (soft) |
+| 3 | Day 4 | What's inside the Fullbond toolkit | All groups, with a group-specific example | Preview images, who it helps, link to buy. | Get the toolkit, $25 |
+| 4 | Day 6 | Moving soon? Here's 10% off | All groups | LAUNCH10 code, 14-day money-back promise, Buy button. | Get the toolkit, $25 |
+| 5 | Day 9 | Last reminder: your code ends Sunday (sent Mon 14 to Fri 18 Dec only; no-code subject to write for later sends) | All groups | Short, friendly, one button. | Get the toolkit, $25 |
 
 "Day 2" and so on means the offset from sign-up. The real send day follows the send-day rule in section 5.4.
 
 Group angle for each email (the personalise step writes these):
-- **moving-in:** condition report and day-one photos; Move-In Kit $12 or Complete Toolkit $29.
-- **moving-out:** cleaning, the final inspection and replying to a bond claim; Move-Out Kit $15 or Complete Toolkit $29.
-- **first-timers:** plain-word explanations of "bond" and "rental provider"; Complete Toolkit $29.
+- **moving-in:** condition report and day-one photos; Move-In Kit $12 or Complete Toolkit $25.
+- **moving-out:** cleaning, the final inspection and replying to a bond claim; Move-Out Kit $15 or Complete Toolkit $25.
+- **first-timers:** plain-word explanations of "bond" and "rental provider"; Complete Toolkit $25.
 
 Each email has one main link (the Complete Toolkit page). The individual kits are named in the text and sit on the same toolkit page.
 
@@ -142,7 +143,7 @@ Sales emails (Day 4, 6 and 9) for sign-ups before launch wait until Mon 7 Dec (d
 - **Day 9 (ends Sunday)** if it sends Mon 14 to Fri 18 Dec, with the subject "Last reminder: your code ends Sunday". **Day 9 (no code)** if it sends from Mon 21 Dec. No-code subjects for Day 6 and Day 9 are still to write.
 - The code end date and time must match Payhip exactly. Confirm how Payhip handles the end time and that LAUNCH10 applies to all three kits.
 
-For reference, 10% off works out to: Complete Toolkit $26.10, Move-In Kit $10.80, Move-Out Kit $13.50. Confirm the checkout shows the same.
+For reference, 10% off works out to: Complete Toolkit $22.50, Move-In Kit $10.80, Move-Out Kit $13.50. Confirm the checkout shows the same.
 
 ### 5.4 Send-day rule (all year)
 

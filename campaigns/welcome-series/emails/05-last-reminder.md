@@ -7,7 +7,7 @@ A friendly reminder that the LAUNCH10 code ends at 11:59pm Melbourne time this S
 
 If the toolkit sounds useful, every kit comes with our 14-day money-back promise. If it doesn't, that's completely fine. Your free checklist is yours to keep.
 
-[Get the toolkit – $29](https://fullbond.com.au/toolkit)
+[Get the toolkit – $25](https://fullbond.com.au/toolkit)
 
 Here to help,
 The Fullbond Team

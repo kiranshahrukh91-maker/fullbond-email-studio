@@ -6,7 +6,7 @@ This studio is for planning and writing email campaigns for Fullbond (fullbond.c
 
 - Move-In Kit: $12
 - Move-Out Kit: $15
-- Complete Toolkit: $29
+- Complete Toolkit: $25
 
 Fullbond grows its email list with a free checklist, "10 Bond Mistakes".
 
