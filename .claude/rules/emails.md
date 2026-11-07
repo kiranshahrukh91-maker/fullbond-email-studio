@@ -14,7 +14,7 @@ Each email file must:
 - **Be easy to read on a phone.** The body is 150 words or fewer.
 - **Have exactly one main link.**
   - Sales emails use `[Get the toolkit – $25](https://fullbond-website-zwl8.vercel.app/toolkit)`.
-  - The first email uses `[Download your checklist](https://fullbond-website-zwl8.vercel.app/free-checklist)`.
+  - The first email uses `[Download your checklist]({{checklist_download_url}})`. This placeholder is replaced with the real checklist file or download link before sending.
 - **Stay honest and calm.**
   - Never promise a full bond back.
   - Never give legal advice.
