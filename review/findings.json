@@ -1,18 +1,68 @@
 {
+  "folder": "campaigns/test-bad",
   "findings": [
     {
-      "file": "campaigns/welcome-series/groups/moving-out/emails/02-photo-mistake.md",
-      "line": 10,
-      "severity": "medium",
-      "problem": "The moving-out version still tells readers to 'Photograph every room on day one' and says photos show 'what the place looked like when you arrived'. The intro also still says 'taking them days after the keys are handed over', and the preview still says 'move-in photos'. Someone leaving within 6 weeks can't act on day-one advice, so the personalised email doesn't fit its group.",
-      "fix": "Rewrite the first bullet and the closing line for moving out. For example: 'Photograph every room now, plus close-ups of any marks, and compare them with your move-in photos if you have them.' Change the preview and intro to match. Keep the rest of the structure."
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 1,
+      "severity": "high",
+      "problem": "Subject still guarantees the full bond back ('Get your full bond back, guaranteed'). Breaks voice.md section 4 and emails.md.",
+      "fix": "Use a calm subject with no outcome promise, e.g. 'Get ready for your move-out'."
     },
     {
-      "file": "campaigns/welcome-series/groups/first-timers/emails/02-photo-mistake.md",
-      "line": 11,
-      "severity": "low",
-      "problem": "The plain-words definition ('Bond is the money held while you rent, and a rental provider is the person or business you rent from.') sits inside the second bullet, straight after 'Check each photo has a date saved.' It interrupts the 'Here's what to do' list and has nothing to do with dating photos.",
-      "fix": "Move the definition to its own short line after the bullet list, or into the opening paragraph. Leave the bullet as 'Check each photo has a date saved.'"
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 2,
+      "severity": "high",
+      "problem": "Preview still says 'you can't lose' (result promise) and 'Only 3 left!' (fake scarcity for a digital product).",
+      "fix": "Replace with a factual preview, e.g. 'A simple plan to help you prepare for move-out.'"
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 8,
+      "severity": "high",
+      "problem": "'Only 3 toolkits left! Buy now before they're gone.' is fake urgency and scarcity.",
+      "fix": "Delete the line. Mention a deadline only if it is real (LAUNCH10 ends after the first 2 weeks)."
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 10,
+      "severity": "high",
+      "problem": "Reads as legal advice: tells the reader what to say at a VCAT hearing ('You must say exactly this') and claims they are 'legally entitled to every cent'. Also implies an outcome and uses scary legal framing.",
+      "fix": "Remove the paragraph, or replace with calm general information such as 'The kit shows you how to gather your evidence if you and your rental provider disagree about your bond.'"
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 10,
+      "severity": "medium",
+      "problem": "'If your rental provider tries to keep your bond' makes a claim about other people's behaviour, banned by voice.md section 4.",
+      "fix": "Reword neutrally or drop it with the paragraph."
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 14,
+      "severity": "medium",
+      "problem": "Second link (Move-Out Kit). emails.md requires exactly one main link.",
+      "fix": "Remove line 14 and keep only the toolkit link on line 12."
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 19,
+      "severity": "high",
+      "problem": "Footer has no unsubscribe link or {{unsubscribe_url}} (Spam Act 2003).",
+      "fix": "Use the full footer from emails.md, including 'Unsubscribe: {{unsubscribe_url}}'."
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 19,
+      "severity": "high",
+      "problem": "Missing 'Fullbond provides general information, not legal advice.' line, though the email touches on bond and tenancy rights.",
+      "fix": "Add that line as the last footer line."
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 19,
+      "severity": "medium",
+      "problem": "Footer is incomplete: no 'You're getting this because...' line, no ABN placeholder, no company address placeholder.",
+      "fix": "Replace with the exact three-line footer from .claude/rules/emails.md."
     }
   ]
 }

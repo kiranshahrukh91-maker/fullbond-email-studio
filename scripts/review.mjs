@@ -15,11 +15,32 @@ if (!folder) {
 const schemaPath = join(root, "review", "findings.schema.json");
 const schemaText = JSON.stringify(JSON.parse(readFileSync(schemaPath, "utf8")));
 
-const prompt =
+const normFolder = (f) => String(f).replace(/\\/g, "/").replace(/\/+$/, "");
+const folderName = normFolder(folder);
+
+// If the last review was for this same folder, hand its findings back to Claude.
+let previous = null;
+const findingsPath = join(root, "review", "findings.json");
+if (existsSync(findingsPath)) {
+  try {
+    const prev = JSON.parse(readFileSync(findingsPath, "utf8"));
+    if (prev?.folder && normFolder(prev.folder) === folderName && Array.isArray(prev.findings)) {
+      previous = prev.findings;
+    }
+  } catch {}
+}
+
+let prompt =
   `Review every email in ${folder} against brand/voice.md and .claude/rules/emails.md. ` +
   `Treat any guarantee of a full bond back, anything that reads as legal advice, fake urgency, ` +
   `a missing unsubscribe link or a missing 'not legal advice' line as high severity. ` +
   `Report only real problems.`;
+if (previous) {
+  prompt +=
+    `\n\nLast review's findings:\n${JSON.stringify(previous, null, 2)}\n\n` +
+    `These are findings from the last review. Report only problems that are new or still not fixed. ` +
+    `Don't repeat ones that have been fixed.`;
+}
 
 // On Windows the npm shim is claude.cmd, which mangles quotes in arguments.
 // Call the real claude.exe next to it so the JSON schema reaches Claude intact.
@@ -73,7 +94,10 @@ if (!structured || !Array.isArray(structured.findings)) {
 }
 
 mkdirSync(join(root, "review"), { recursive: true });
-writeFileSync(join(root, "review", "findings.json"), JSON.stringify(structured, null, 2) + "\n");
+writeFileSync(
+  findingsPath,
+  JSON.stringify({ folder: folderName, findings: structured.findings }, null, 2) + "\n",
+);
 
 const counts = { high: 0, medium: 0, low: 0 };
 for (const f of structured.findings) counts[f.severity] = (counts[f.severity] ?? 0) + 1;

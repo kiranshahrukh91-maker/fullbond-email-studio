@@ -3,7 +3,7 @@ Preview: Our toolkit means you can't lose. Only 3 left!
 
 Hi {{first_name}},
 
-We guarantee you'll get your full bond back.
+Our checklists help you give yourself the best chance of getting your bond back.
 
 Only 3 toolkits left! Buy now before they're gone.
 
