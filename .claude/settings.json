@@ -1,15 +1,4 @@
 {
-  "extraKnownMarketplaces": {
-    "knowledge-work-plugins": {
-      "source": {
-        "source": "github",
-        "repo": "anthropics/knowledge-work-plugins"
-      }
-    }
-  },
-  "enabledPlugins": {
-    "marketing@knowledge-work-plugins": true
-  },
   "hooks": {
     "PreToolUse": [
       {
@@ -22,5 +11,23 @@
         ]
       }
     ]
+  },
+  "enabledPlugins": {
+    "marketing@knowledge-work-plugins": true,
+    "studio-kit@studio-kit": true
+  },
+  "extraKnownMarketplaces": {
+    "knowledge-work-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/knowledge-work-plugins"
+      }
+    },
+    "studio-kit": {
+      "source": {
+        "source": "directory",
+        "path": "D:\\Projects\\Automation Projects\\studio-kit"
+      }
+    }
   }
 }
