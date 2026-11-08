@@ -1,0 +1,18 @@
+{
+  "findings": [
+    {
+      "file": "campaigns/welcome-series/groups/moving-out/emails/02-photo-mistake.md",
+      "line": 10,
+      "severity": "medium",
+      "problem": "The moving-out version still tells readers to 'Photograph every room on day one' and says photos show 'what the place looked like when you arrived'. The intro also still says 'taking them days after the keys are handed over', and the preview still says 'move-in photos'. Someone leaving within 6 weeks can't act on day-one advice, so the personalised email doesn't fit its group.",
+      "fix": "Rewrite the first bullet and the closing line for moving out. For example: 'Photograph every room now, plus close-ups of any marks, and compare them with your move-in photos if you have them.' Change the preview and intro to match. Keep the rest of the structure."
+    },
+    {
+      "file": "campaigns/welcome-series/groups/first-timers/emails/02-photo-mistake.md",
+      "line": 11,
+      "severity": "low",
+      "problem": "The plain-words definition ('Bond is the money held while you rent, and a rental provider is the person or business you rent from.') sits inside the second bullet, straight after 'Check each photo has a date saved.' It interrupts the 'Here's what to do' list and has nothing to do with dating photos.",
+      "fix": "Move the definition to its own short line after the bullet list, or into the opening paragraph. Leave the bullet as 'Check each photo has a date saved.'"
+    }
+  ]
+}
